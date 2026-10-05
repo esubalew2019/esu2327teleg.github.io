@@ -4,158 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Esubalew | My Story</title>
+    <title>Esubalew | Telegram</title>
 
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            color: #222;
+            background: linear-gradient(135deg, #229ED9, #0b6fa4);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 420px;
+            margin: 80px auto;
+            padding: 30px;
+            background: white;
+            color: #333;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .profile {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #229ED9;
+        }
+
+        .username {
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        p {
             line-height: 1.6;
         }
 
-        header {
-            background: #12355b;
+        .telegram-button {
+            display: block;
+            margin-top: 25px;
+            padding: 15px;
+            background: #229ED9;
             color: white;
-            text-align: center;
-            padding: 60px 20px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
         }
 
-        header h1 {
-            font-size: 42px;
-            margin: 0 0 10px;
-        }
-
-        header p {
-            font-size: 19px;
-            margin: 0;
-        }
-
-        section {
-            max-width: 850px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-        }
-
-        h2 {
-            color: #12355b;
-        }
-
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .skill {
-            background: #e7eef5;
-            padding: 10px 15px;
-            border-radius: 20px;
+        .telegram-button:hover {
+            background: #168ac0;
         }
 
         footer {
-            text-align: center;
-            background: #12355b;
-            color: white;
-            padding: 20px;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 32px;
-            }
-
-            section {
-                margin: 20px 10px;
-                padding: 20px;
-            }
+            margin-top: 25px;
+            font-size: 13px;
+            color: #888;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>Hello, I'm Esubalew</h1>
-        <p>Electrical Engineer • Electrician • Technology Graduate</p>
-    </header>
+    <div class="container">
 
-    <section>
-        <h2>My Story</h2>
+        <!-- Profile picture -->
+        <img src="profile.jpg" class="profile" alt="Esubalew">
 
-        <p>
-            My name is <strong>Esubalew</strong>. I am a graduate of
-            <strong>Electrical and Computer Engineering</strong> from
-            <strong>Debre Markos University</strong>.
-        </p>
+        <h1>Esubalew</h1>
 
-        <p>
-            My journey has taken me from engineering studies into practical
-            electrical work. Today, I work as an electrician, gaining real
-            experience in building electrical installations and construction
-            projects.
-        </p>
-
-        <p>
-            I believe that education is only the beginning. I continue to learn,
-            improve my technical skills, and explore networking, programming,
-            and web development.
-        </p>
-
-        <p>
-            My goal is to combine my engineering knowledge, practical experience,
-            and technology skills to build a successful career and create
-            something valuable for others.
-        </p>
-    </section>
-
-    <section>
-        <h2>My Education</h2>
-
-        <p>
-            <strong>Bachelor's Degree in Electrical and Computer Engineering</strong>
-        </p>
-
-        <p>
-            Debre Markos University
-        </p>
-    </section>
-
-    <section>
-        <h2>What I Do</h2>
-
-        <div class="skills">
-            <div class="skill">Electrical Installation</div>
-            <div class="skill">Building Electrical Systems</div>
-            <div class="skill">Electrical Engineering</div>
-            <div class="skill">Networking</div>
-            <div class="skill">Computer Technology</div>
-            <div class="skill">Web Development</div>
+        <div class="username">
+            @esu_2723
         </div>
-    </section>
-
-    <section>
-        <h2>My Vision</h2>
 
         <p>
-            I want to keep learning, develop strong technical skills, and grow
-            through practical experience into a successful engineering and
-            technology career.
+            Welcome to my personal Telegram page.
         </p>
 
         <p>
-            <strong>My journey is still being written.</strong>
+            You can contact me directly through Telegram.
         </p>
-    </section>
 
-    <footer>
-        <p>© 2026 Esubalew. All Rights Reserved.</p>
-    </footer>
+        <a class="telegram-button"
+           href="https://t.me/esu_2723"
+           target="_blank">
+            ✈️ Open My Telegram
+        </a>
+
+        <footer>
+            © 2026 Esubalew
+        </footer>
+
+    </div>
 
 </body>
 </html>
